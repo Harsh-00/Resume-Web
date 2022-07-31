@@ -1,0 +1,14 @@
+body{
+	background-image: url("13.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #1E3163;
+}
+h1{
+	color: #FF6B6B;
+}
+a{
+	text-decoration: none;
+	font-style: italic;
+	color: darkred;
+}

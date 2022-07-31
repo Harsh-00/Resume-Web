@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Form</title>
+	<link href="Form.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<h2 ><a href="1.html"  >Back</a></h2>
+
+	
+
+
+	<center>
+	<h1>Register Now</h1><br><br><br>
+	<form method="GET"> 
+
+	<strong>Name</strong> :&emsp;<input type="text" name="Name"><br><br>
+
+	<strong>Age :</strong>&emsp;&ensp;&nbsp;<input type="number" name="Age"><br><br>
+
+ 	<strong>E-mail:</strong>&emsp;<input type="email" required name="E-mail"><br><br> 
+		<!--  required means it is mandatory to register or submit form  and type is email bcz it must include @-->
+
+	<strong>Password:</strong>&nbsp;<input type="password" required min="8" name="Password"><br><br>
+	<strong>Birthday:</strong>&emsp;<input type="date" name="Birthday" ><br><br>
+
+
+	<strong>Gender:</strong>
+	&nbsp;
+	<input type="radio" name="Gender" value="male">Male
+
+	<input type="radio" name="Gender" value="female">Female 
+	<!-- radio type for selection  -->
+
+	<input type="radio" name="Gender" value="others">Others<br><br>
+	<!-- same name daal diya iska mtlb teeno me se sirf
+	ek hi select kr pyenge -->
+
+
+	<strong>Interseted In:</strong>
+	 &nbsp;
+	<input type="checkbox" name="Football">Football
+	<input type="checkbox" name="Cricket">Cricket
+  	<input type="checkbox" name="Swimming">Swimming<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+	<input type="checkbox" name="Basketball">Basketball
+	<input type="checkbox" name="Volleyballs">Volleyball<br><br>
+	<!-- idhar apan ne value attribute nhi daala bcz to show difference b/w this and above --> 
+
+
+	<strong>Choose a Mall:</strong>
+	&nbsp;
+	<select name="mall"><!-- to create drop-down list -->
+		<option value="gt">GT</option>
+		<option value="wtp">WTP</option>
+	</select><br><br>
+	<!-- everywhere in tag,name attribute is req. for form submittion purpose -->
+
+
+	
+
+    <input type="submit" value="Register"><!-- value means name on button -->
+
+	<input type="reset" ><br><br>
+
+	</form></center><!-- output:
+	?Name=fewf&Age=67&E-mail=rwgw%40gmsil.in&Password=6263yrey&Birthday=2022-07-05&Gender=male&Football=on&Swimming=on&mall=gt -->
+
+</body>
+</html>
